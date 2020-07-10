@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+.wrap{
+    width: 1000px;
+    height: 500px;
+    margin: 30px auto;
+    position: relative;
+}
+.wrap img:hover{
+    position: absolute;
+    z-index: 10;
+    transform: rotate(0deg) scale(1.2);
+    -webkit-transform: rotate(0deg) scale(1.2);
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+.pic{
+    position: absolute;
+    padding: 10px 10px 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 180px;
+    height: 180px;
+    -webkit-box-shadow: 5px 5px 15px rgba(50,50,50,0.4);
+    -moz-box-shadow: 5px 5px 15px rgba(50,50,50,0.4) ;
+    box-shadow: 5px 5px 15px rgba(50,50,50,0.4);
+}
+.pic1{
+    top:10px;
+    left: 10px;
+    transform: rotate(-15deg);
+}
+.pic4{
+    top:30px;
+    left: 300px;
+    transform: rotate(15deg);
+}
+.pic3{
+    top:100px;
+    left:460px;
+    transform: rotate(-20deg);
+}
+.pic7{
+    top:40px;
+    left: 650px;
+    transform: rotate(15deg);
+}
+.pic8{
+    top:400px;
+    left: 710px;
+    transform: rotate(-50deg);
+}
+.pic6{
+    top:380px;
+    left: 300px;
+    transform: rotate(-20deg);
+}
+.pic2{
+    top:200px;
+    left: 180px;
+    transform: rotate(25deg);
+}
+.pic5{
+    top:330px;
+    left: 30px;
+    transform: rotate(-30deg);
+}
+.pic9{
+    top: 180px;
+    left: 800px;
+    transform: rotate(-15deg);
+}
+.pic10{
+    top: 300px;
+    left: 500px;
+    transform: rotate(10deg);
+}
